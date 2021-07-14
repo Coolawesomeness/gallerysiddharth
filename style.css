@@ -1,19 +1,27 @@
-body {
+body{
     text-align: center;
-    background-color: #f0e8c5;
 }
 
-div {
+#Logo{
+    width: 800px;
+    height: 563px;
+}
+
+img{
+    width: 350px;
+}
+
+.cars{
+    display: inline;
+}
+
+#mycarousel img{
+    height: 300px;
+    margin-top:25px;
+}
+
+.carousel-inner{
     margin-top: 15px;
-}
-
-image-section {
-    display: flex;
-    justify-content: center;
-}
-
-.section-style {
-    margin-right: 25px;
-    margin-left: 25px;
-    background-color: white;
+    margin-bottom: 15px;
+    color:black;
 }
