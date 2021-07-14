@@ -1,14 +1,24 @@
 <html lang="en">
 
 <head>
-    <meta charest="utf-g">
+    <center>
+        <ul class="menu1">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="Grids">Grid view</a></li>
+            <li class="links"><a href="slides">Slide view</a></li>
+        </ul>
+    </center>
+    
+    <meta charest="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax/libs/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src=""></script>
+    
+    <div class="container"></div>
 </head>
 
 <body>
@@ -26,10 +36,10 @@
         <img src="https://www.geeky-gadgets.com/wp-content/uploads/2010/10/SSC-Aero_1.jpg">
     </div>
     <h3>Sliding Gallery</h3>
-    <div id="mycarousel" class="carousel slide">
+     <div id="mycarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="item active">
-                    <center>
+                <center>
                     <img class="img-responsive" src="https://cdn.motor1.com/images/mgl/mrz1e/s1/coolest-cars-feature.webp">
                     <div class="carousel-content">
                     </div>
@@ -65,38 +75,47 @@
             </div>
             <div class="item">
                 <center>
-                    <img class="https://www.teahub.io/photos/full/85-858763_ykan-hypersport-cool-cars-car-fast-cars-world.jpg">
+                    <img class="img-responsive" src="https://www.teahub.io/photos/full/85-858763_ykan-hypersport-cool-cars-car-fast-cars-world.jpg">
                     <div class="carousel-content">
                     </div>
                 </center>
             </div>
             <div class="item">
                 <center>
-                    <img class="https://visor.ph/wp-content/uploads/2020/08/llorin-trading-main.jpg">
+                    <img class="img-responsive" src="https://visor.ph/wp-content/uploads/2020/08/llorin-trading-main.jpg">
                     <div class="carousel-content">
                     </div>
                 </center>
             </div>
             <div class="item">
                 <center>
-                    <img class="https://www.geeky-gadgets.com/wp-content/uploads/2010/10/SSC-Aero_1.jpg">
+                    <img class="img-responsive" src="https://www.geeky-gadgets.com/wp-content/uploads/2010/10/SSC-Aero_1.jpg">
                     <div class="carousel-content">
                     </div>
                 </center>
             </div>
             <a class="left carousel-control" href="#mycarousel" data-slide="prev">
-                <span class="glyphion glyphion-chevron-left">
-                </span>
+                <span class="glyphicon glyphicon-chevron-left">
+            </span>
             </a>
-            <a class="right carousel-control" href="#mycarousel" data-slide="prev">
-                <span class="glyphion glyphion-chevron-right">
-                </span>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+             </span>
             </a>
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+                <li data-target="#mycarousel" data-slide-to="3"></li>
+                <li data-target="#mycarousel" data-slide-to="4"></li>
+                <li data-target="#mycarousel" data-slide-to="5"></li>
+                <li data-target="#mycarousel" data-slide-to="6"></li>
+                <li data-target="#mycarousel" data-slide-to="7"></li>
+            </ol>
         </div>
     </div>
 </body>
 
 </html>
-        
            
                         
